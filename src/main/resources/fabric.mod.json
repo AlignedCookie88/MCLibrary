@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mclibrary",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "MCLibrary",
+  "description": "A Minecraft: Java Edition Fabric mod that allows you to download content from inside the game.",
   "authors": [
-    "Me!"
+    "AlignedCookie88"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "http://mclibrary.alignedcookie88.com/",
+    "sources": "https://github.com/AlignedCookie88/MCLibrary/"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/mclibrary/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.alignedcookie88.mclibrary.MCLibrary"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mclibrary.mixins.json"
   ],
 
   "depends": {
